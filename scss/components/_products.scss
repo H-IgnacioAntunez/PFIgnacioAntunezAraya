@@ -1,0 +1,49 @@
+//Productos
+.producto{
+    background-color: white;
+    .producto__precio{
+        color: $primary;
+    }
+    .producto__nombre{
+        color: $primary;
+    }
+    .producto__especificaciones{
+        .producto__redes{
+            .producto__link{
+                font-size: 2rem;                
+                padding-right:0.5rem;
+            }
+            .producto__icon{
+                color:green;
+                cursor: pointer;
+                &:hover{
+                    color: $hojaAmarilla;
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
+    .producto__cantidad{   
+        padding: 10px;
+        font-weight: 500; 
+        .input-quantity{
+            border:none;
+            width: 30px;
+            color:$terciary;
+            background-color: #F7F7F7;
+            font-size: 1.4rem;
+            &::-webkit-inner-spin-button, &::-webkit-outer-spin-button{
+                -webkit-appearance: none;
+                appearance: none;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+        .quantity__movements{
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+        }
+    }
+}

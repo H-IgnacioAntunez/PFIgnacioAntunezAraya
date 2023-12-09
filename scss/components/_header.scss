@@ -1,0 +1,9 @@
+//Encabezado
+.navbar{
+    background: linear-gradient(0deg, rgba($primary,1) 0%, rgba(102,247,113,1) 100%);
+    height: 90px;
+    .navbar-brand img{
+        max-height: 150px;
+    }
+    
+}

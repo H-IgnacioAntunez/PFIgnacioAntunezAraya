@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Eitquetas meta y links-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactenos y en Palta Shop le devolveremos el mensaje a la brevedad!. Aguardamos su mensaje.">
+  <meta name="keywords" content="CONTACTO, PALTA, TIENDA,">
+  <link rel="shortcut icon" href="../assets/img/Logo.ico" type="image/x-icon">
+  <title>Contacto</title>
+  <!--tipografias-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+  <!--Animaciones-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<!--Contenido-->
+
+<body class="animate__animated animate__fadeIn">
+  <!--Encabezado de la página-->
+  <header>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <!--Logo-->
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/picsvg_download.svg" height="70" alt="Logo Palta Shop"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Menu navegacion-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item me-1">
+              <a class="nav-link header__btn" aria-current="page" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item me-1">
+              <a class="nav-link header__btn" href="./tienda.html">TIENDA</a>
+            </li>
+            <li class="nav-item me-1">
+              <a class="nav-link header__btn" href="./Contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Formulario-->
+  <main class="formulario mb-4 container-fluid">
+    <!--Título-->
+    <div class="row">
+      <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center">
+        <h1 class="title">¡Contactanos!</h1>
+      </div>
+      <!--Formulario-->
+      <div class="container mb-4">
+        <form action="" class="row mx-5 mt-3 form">
+          <!--Titulo-->
+          <div class="col-12 pt-2">
+            <h3 class="form__title">Ingrese sus datos</h3>
+          </div>
+          <!--Nombre-->
+          <div class="col-12">
+            <label for="nombre" class="form-label form__label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+          </div>
+          <!--Apellido-->
+          <div class="col-12">
+            <label for="apellido" class="form-label form__label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+          </div>
+          <!--Mail-->
+          <div class="col-12">
+            <label for="mail" class="form-label form__label">E-Mail</label>
+            <input type="email" class="form-control" id="mail" placeholder="Ingrese su dirección de correo electrónico">
+          </div>
+          <!--Comentario-->
+          <div class="col-12 mb-2">
+            <label for="comentario" class="form-label form__label">Deja tu comentario</label>
+            <textarea class="form-control" id="comentario" rows="3"></textarea>
+          </div>
+          <!--Boton enviar-->
+          <div class="d-grid gap-2">
+            <button class="btn form__btn">Enviar</button>
+          </div>
+        </form>
+      </div>
+  </main>
+
+
+  <!--Pie de página-->
+  <footer class="pt-5 pb-4 footer">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <!--Seccion nosotros-->
+          <h2 class="footer__header mb-4">Nosotros</h2>
+          <hr class="mb-4">
+          <p class="footer__text">En Palta Shop, llevamos la experiencia de disfrutar de las mejores paltas
+            directamente a tu hogar. Nos apasiona ofrecerte una selección única de paltas frescas y
+            deliciosas, cultivadas con esmero para brindarte un sabor excepcional en cada bocado.</p>
+        </div>
+        <!--Seccion navegacion-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h2 class="footer__header mb-4">Navegacion</h2>
+          <hr class="mb-3">
+          <ul class="nav flex-column text-center">
+            <li class="nav-item"><a href="../index.html" class="footer__link">Inicio</a></li>
+            <li class="nav-item"><a href="./tienda.html" class="footer__link">Tienda</a></li>
+            <li class="nav-item"><a href="./products/lambHass.html" class="footer__link"">Palta Lamb Hass</a></li>
+            <li class=" nav-item"><a href="./products/Hass.html" class="footer__link"">Palta Hass</a></li>
+            <li class=" nav-item"><a href="./products/pinkerton.html" class="footer__link">Palta Pinkerton</a></li>
+            <li class="nav-item"><a href="./Contacto.html" class="footer__link">Contacto</a></li>
+          </ul>
+        </div>
+        <!--Seccion contacto-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h2 class="footer__header mb-4">CONTACTO</h2>
+          <hr class="mb-3">
+          <div class="d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center mb-2">
+              <i class="fas fa-home me-3"></i>
+              <span class="text-center">Argentina, CABA</span>
+            </div>
+            <div class="d-flex align-items-center mb-2">
+              <i class="fas fa-envelope me-3"></i>
+              <span class="text-center">Ignacioantunezrn@gmail.com</span>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="fas fa-phone me-3"></i>
+              <span class="text-center">+54 9 9999999999</span>
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4 mt-4">
+        <!--Seccion copyright-->
+        <div class="text-center mb-2">
+          <p>
+            Copyright Todos los derechos reservados.
+            <a href="#" class="footer__copyright">
+              Palta Shop
+            </a>
+          </p>
+        </div>
+        <div class="text-center">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="footer__link"><i class="footer__icon fab fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="footer__link"><i class="footer__icon fab fa-x-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="footer__link"><i class="footer__icon fab fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="footer__link"><i class="footer__icon fab fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="footer__link"><i class="footer__icon fab fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </nav>
+  </footer>
+
+  <!--Scripts Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/572f4394a8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

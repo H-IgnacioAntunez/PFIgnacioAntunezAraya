@@ -1,0 +1,32 @@
+/*Footer de la página*/
+.footer{
+    background-color: $terciary;
+    color: white;
+    .footer__header{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .footer__link{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: $hojaAmarilla;
+        }
+    }
+    .footer__copyright{
+        color: $hojaAmarilla;
+        text-decoration: none;
+        &:hover{
+            color:#FAEA11;
+        }
+    }
+    .footer__icon{
+        color: white;
+        font-size: 2rem;
+        &:hover{
+            color: $hojaAmarilla;
+            transform: scale(1.3);
+        }
+    }
+    
+}

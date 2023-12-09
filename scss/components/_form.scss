@@ -1,0 +1,21 @@
+//Form de la pagina
+.form{
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    .form__title{
+        text-align: center;
+        margin: 0;
+    }
+    .form__label{
+        font-size: 22px;
+    }
+    .form__btn{
+        background-color:#4BBF56;
+        color: white;
+        &:hover{
+            background-color: $hojaAmarilla;
+            color: $terciary;
+        }
+    }
+}

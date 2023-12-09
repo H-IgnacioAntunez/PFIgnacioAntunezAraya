@@ -1,0 +1,24 @@
+//Fuente importante titulos y parrafos
+$fuente-importante:agbalumo;
+
+//Titulos
+.title{
+    font-family: $fuente-importante;
+    font-size:6rem;
+}
+
+//Subtitulos
+.subtitle{
+    font-family: $fuente-importante;
+    font-size:2rem;
+}
+
+//texto
+.text{
+    font-size:18px;
+}
+
+//textosproductos
+.product__text{
+    font-size:16px;
+}

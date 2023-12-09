@@ -1,0 +1,19 @@
+//Base
+@import "./base/colors";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/images";
+@import "./components/buttons";
+//Header
+@import "./components/header";
+
+//Cards y productos
+@import "./components/cards";
+@import "./components/products";
+
+//Formulario
+@import "./components/form";
+
+//Footer y media querys
+@import "./components/footer";
+@import "./components/mediaquery";

@@ -1,0 +1,55 @@
+@media screen and (max-width:1380px){
+    .title{
+        font-size: 5rem;
+    }
+    /*textoMain*/
+    .text,.product__text{
+        font-size:16px
+    }
+}
+
+@media screen and (max-width:1270px){
+    /*SubtituloMain*/
+    .title{
+        font-size: 4.5rem;
+    }
+    /*TextoMain*/
+    .text,.product__text{
+        font-size:15px
+    }
+}
+//Media Queries
+@media screen and (max-width:1160px){
+    /*SubtituloMain*/
+    .title{
+        font-size: 3.5rem;
+    }
+    /*TextoMain*/
+    .text, .product__text, .form__label{
+        font-size:14px
+    }
+}
+
+@media screen and (max-width:1070px){
+    /*SubtituloMain*/
+    .title{
+        font-size:3rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .header__btn{
+        background: $terciary;
+        border-radius: 0;
+        border:0;
+    }
+    .navbar-nav{
+        background: $terciary;
+    }
+    
+}
+
+@media screen and (max-width:575px){
+    .contenedorImg{
+        height: 200px;
+    }
+}
